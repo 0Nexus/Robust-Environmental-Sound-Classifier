@@ -1,0 +1,28 @@
+{
+  "classes": [
+    "siren",
+    "dog",
+    "car_horn",
+    "glass_breaking",
+    "clock_alarm",
+    "vacuum_cleaner",
+    "rain",
+    "door_wood_knock"
+  ],
+  "n_train": 240,
+  "n_test": 80,
+  "baseline": {
+    "clean": 0.8375,
+    "noisy": 0.2375,
+    "degraded": 0.2
+  },
+  "robust_augmented": {
+    "clean": 0.825,
+    "noisy": 0.8375,
+    "degraded": 0.8375
+  },
+  "recovery": {
+    "noisy_recovery_pp": 60.0,
+    "degraded_recovery_pp": 63.7
+  }
+}
